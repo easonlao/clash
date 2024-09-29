@@ -179,10 +179,6 @@ dns:
       - "https://dns.google/dns-query"
  
    
-proxies:
-- name: "🟢 直连"
-  type: direct
-  udp: true
 
   
 # 策略组
