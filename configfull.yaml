@@ -66,7 +66,7 @@ proxies:
   - {"name":"入门-香港自有机房01 ","type":"ssr","server":"jp.j.v3.2.xiaoddns.xyz","port":10552,"cipher":"rc4-md5","password":"wz5jrlp7j2l","protocol":"auth_aes128_md5","protocol-param":"24960:r4pn46","obfs":"tls1.2_ticket_auth","obfs-param":"b2ded24960.cloudfront.com,cloudflare.com,itunes.apple.com,www.icloud.com,ajax.microsoft.com,apps.bdimg.com,www.bing.com","udp":true,"tags":"hk"}
   - {"name":"入门-香港自有机房02 ","type":"ssr","server":"jp.j.v3.2.xiaoddns.xyz","port":10554,"cipher":"rc4-md5","password":"wz5jrlp7j2l","protocol":"auth_aes128_md5","protocol-param":"24960:r4pn46","obfs":"tls1.2_ticket_auth","obfs-param":"b2ded24960.cloudfront.com,cloudflare.com,itunes.apple.com,www.icloud.com,ajax.microsoft.com,apps.bdimg.com,www.bing.com","udp":true,"tags":"hk"}
   - {"name":"入门-马来西亚|GPT ","type":"ssr","server":"styd.xiaoddns.xyz","port":10253,"cipher":"rc4-md5","password":"wz5jrlp7j2l","protocol":"auth_aes128_md5","protocol-param":"24960:r4pn46","obfs":"tls1.2_ticket_auth","obfs-param":"b2ded24960.cloudfront.com,cloudflare.com,itunes.apple.com,www.icloud.com,ajax.microsoft.com,apps.bdimg.com,www.bing.com","udp":true,"tags":"my"}
-  - {name: "🟢 直连" ,type: direct,"udp":true}
+  - {"name":"🟢 直连" ,type: direct,"udp":true}
   
 # 用于下载订阅时指定UA
 global-ua: clash.meta
